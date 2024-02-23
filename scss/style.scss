@@ -1,1 +1,6 @@
 @import "./bootstrap-overrides";
+@import "./variable";
+
+.butn :hover {
+  background-color: $secondary;
+}

@@ -24,6 +24,7 @@ $add-spacer: (
   10: $spacer * 15,
   11: $spacer * 25,
   12: $spacer * 1.8,
+  13: $spacer * 14,
 );
 
 $spacers: map-merge($spacers, $add-spacer);
@@ -35,6 +36,7 @@ $add-color: (
   "gray-way": #666666,
   "paleon-gray": #c5c5c5,
   "al-gray": #5a5a5a,
+  "netflix-black": #141414,
 );
 
 $theme-colors: map-merge($theme-colors, $add-color);
